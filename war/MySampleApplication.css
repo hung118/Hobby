@@ -1,0 +1,33 @@
+/** Add css rules here for your application. */
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+body, td, a, div, .p {
+    font-family: arial, sans-serif
+}
+
+#left-right {
+    border-radius: 100%;
+    border: 1px solid darkblue;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+#left-column {
+    float: left;
+    margin: 0;
+    padding: 0 2% 0 0;
+    width: 49%;
+}
+#right-column {
+    box-sizing: border-box;
+    float: right;
+    margin: 0 0 0 2%;
+    padding: 0;
+    width: 46%;
+}
